@@ -12,8 +12,7 @@ class _MyLoginState extends State<MyLogin> {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        image: DecorationImage(
-            image: AssetImage('assets/login.png'), fit: BoxFit.cover),
+        color: const Color(0xffA3766A),
       ),
       child: Scaffold(
         backgroundColor: Colors.transparent,
@@ -23,14 +22,15 @@ class _MyLoginState extends State<MyLogin> {
             Container(
               padding: EdgeInsets.only(left: 35, top: 130),
               child: Text(
-                'Welcome\nBack',
+                'LU CLUBS',
                 style: TextStyle(color: Colors.white, fontSize: 33),
               ),
+
             ),
             SingleChildScrollView(
               child: Container(
                 padding: EdgeInsets.only(
-                    top: MediaQuery.of(context).size.height * 0.5),
+                    top: MediaQuery.of(context).size.height * 0.35),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -100,7 +100,7 @@ class _MyLoginState extends State<MyLogin> {
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                       decoration: TextDecoration.underline,
-                                      color: Color(0xff4c505b),
+                                      color: Color(0xff000000),
                                       fontSize: 18),
                                 ),
                                 style: ButtonStyle(),
@@ -111,7 +111,7 @@ class _MyLoginState extends State<MyLogin> {
                                     'Forgot Password',
                                     style: TextStyle(
                                       decoration: TextDecoration.underline,
-                                      color: Color(0xff4c505b),
+                                      color: Color(0xff000000),
                                       fontSize: 18,
                                     ),
                                   )),
