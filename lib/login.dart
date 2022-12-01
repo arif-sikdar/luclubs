@@ -20,22 +20,21 @@ class _MyLoginState extends State<MyLogin> {
           children: [
             Container(),
             Container(
-              padding: EdgeInsets.only(left: 35, top: 130),
+              padding: EdgeInsets.only(left: 40, top: 130),
               child: Text(
                 'LU CLUBS',
                 style: TextStyle(color: Colors.white, fontSize: 33),
               ),
-
             ),
             SingleChildScrollView(
               child: Container(
                 padding: EdgeInsets.only(
-                    top: MediaQuery.of(context).size.height * 0.35),
+                    top: MediaQuery.of(context).size.height * 0.4),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
-                      margin: EdgeInsets.only(left: 35, right: 35),
+                      margin: EdgeInsets.only(left: 40, right: 40),
                       child: Column(
                         children: [
                           TextField(
@@ -86,7 +85,7 @@ class _MyLoginState extends State<MyLogin> {
                             ],
                           ),
                           SizedBox(
-                            height: 40,
+                            height: 45,
                           ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
